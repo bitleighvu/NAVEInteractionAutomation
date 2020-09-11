@@ -54,13 +54,14 @@
 ## Guide for `residents.txt`
 ### Schema: Name*, Building*, Room*, Resident Interaction, Themes, Actions, Notes
 **Mandatory Fields**
-*If no numbers are added, defaults are:
-- Resident Interaction - Text/Messaging
-- Theme - Social/Get-to-know
-- Actions - None
-- Notes - None*
 
-Resident Interaction:
+*If no numbers are added, defaults are:*
+- *Resident Interaction - Text/Messaging*
+- *Theme - Social/Get-to-know*
+- *Actions - None*
+- *Notes - None*
+
+**Resident Interaction:**
 1 - In person
 2 - Text/Messaging
 3 - Video call
@@ -68,7 +69,7 @@ Resident Interaction:
 5 - Phone Call
 6 - Around Campus
 
-Themes:
+**Themes:**
 - 1 - Social/Get-to-know
 - 2 - Current Topics & Events
 - 3 - Academic Issues & Successes
@@ -77,13 +78,13 @@ Themes:
 - 6 - Guided Resident Conversation
 - 7 - Roommate & Community Dynamics
 
-Actions:
+**Actions:**
 - 1 - Refer Resident to a Campus Resource
 - 2 - Follow up later by RA
 - 3 - Refer Resident to the Hall Director
 - 4 - Other
 
-Example (Has to be one of these three formats; You can alternate formats as you see fit per resident):
+**Example (Has to be one of these three formats; You can alternate formats as you see fit per resident): **
 - George Burdell, NAS,9000D
   - George Burdell NAS 900Dm RA interacted Text/Messaging, No Action, No notes
 - George Burdell, NAS, 900D, 123, 1, 0
