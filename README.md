@@ -32,6 +32,7 @@
   - Press `Apply` then `Okay`
 11. Almost done! 
 
+
 **File Structure**
 1. Open the folder named `NAVEInteractionAutomation` in IntelliJ
 2. On the left hand bar, select `src > main > java > StudentEngagementAuto.java`
@@ -42,21 +43,22 @@
   -If you would like to receive emails, uncomment the line of code above `CHANGE EMAIL` and the same line (delete the //). Replace `CHANGE EMAIL` with your email.
 4. The only file you will really touch after all this initial set-up is `residents.txt`
 
-**Adding & Editing Residents**
+
+## Adding & Editing Residents
 1. Open the folder named `NAVEInteractionAutomation` in IntelliJ
 2. On the left hand bar, select `src > main > java > residents.txt`
   - `residents.txt` will be the only file you're inputting resident name and info
   - Your file will *ONLY* be avaliable to you on your own computer. 
 3. Use guide and example below to complete `residents.txt` to meet your needs
 
-**Guide for residents.txt**
+## Guide for `residents.txt`
 ### Schema: Name*, Building*, Room*, Resident Interaction, Themes, Actions, Notes
 *Mandatory
 *If no numbers are added, defaults are:
-Resident Interaction - Text/Messaging
-Theme - Social/Get-to-know
-Actions - None
-Notes - None*
+- Resident Interaction - Text/Messaging
+- Theme - Social/Get-to-know
+- Actions - None
+- Notes - None*
 
 Resident Interaction:
 1 - In person
@@ -90,9 +92,11 @@ George Burdell, NAS, 9000D, 12, 1, 0, Said Hello
   - George Burdell NAS 900D, RA interacted In person and Text/Messaging, No Action, Said Hello
 
 ###### First-time Running: Only have one resident listed first in your resident.txt file.
-**Running the Automation**
+## Running the Automation
 1. Open the folder named `NAVEInteractionAutomation` in IntelliJ
 2. On the left hand bar, select `src > main > java > StudentEngagementAuto.java`
 3. On line 17, press the little green play button 
 4. Press, the first option ('Run StudentEngagment...main()')
 5. This will execute the script with all residents listed in your `resident.txt` file.
+
+**Any problems, questions, and suggestions, please reach out to me via GroupMe!**
