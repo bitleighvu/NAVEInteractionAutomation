@@ -50,13 +50,13 @@
 3. 
 
 **Guide for residents.txt**
-###Schema: Name*, Building*, Room*, Resident Interaction, Themes, Actions, Notes
+### Schema: Name*, Building*, Room*, Resident Interaction, Themes, Actions, Notes
 *Mandatory
 *If no numbers are added, defaults are:
-Resident Interaction - Text/Messaging
-Theme - Social/Get-to-know
-Actions - No action
-Notes - Nothing*
+Resident Interaction - None
+Theme - None
+Actions - None
+Notes - None*
 
 Resident Interaction:
 1 - In person
@@ -67,22 +67,25 @@ Resident Interaction:
 6- Around Campus
 
 Themes:
-1 - Social/Get-to-know
-2 - Current Topics & Events
-3 - Academic Issues & Successes
-4 - Crisis & Mental Health Concern
-5 - Campus Involvement/Engagement
-6 - Guided Resident Conversation
-7 - Roommate & Community Dynamics
+- 1 - Social/Get-to-know
+- 2 - Current Topics & Events
+- 3 - Academic Issues & Successes
+- 4 - Crisis & Mental Health Concern
+- 5 - Campus Involvement/Engagement
+- 6 - Guided Resident Conversation
+- 7 - Roommate & Community Dynamics
 
 Actions:
-1 - Refer Resident to a Campus Resource
-2 - Follow up later by RA
-3 - Refer Resident to the Hall Director
-4 - Other
+- 1 - Refer Resident to a Campus Resource
+- 2 - Follow up later by RA
+- 3 - Refer Resident to the Hall Director
+- 4 - Other
 
 Example:
-George Burdell, NAS, 9000D, 12, 1, 1, Said Hello
+George Burdell, NAS,9000D
+ - George Burdell NAS 900D; No other specification
+George Burdell, NAS, 9000D, 12, 1, 0, Said Hello
+  - George Burdell NAS 900D, RA interacted In person and Text/Messageing, No Action, Said Hello
 
 ###### First-time Running: Only have one resident listed first in your resident.txt file.
 **Running the Automation**
