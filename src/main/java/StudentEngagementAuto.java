@@ -40,12 +40,11 @@ public class StudentEngagementAuto {
 
             WebElement next = driver.findElement(By.name("NextButton"));
             next.click();
-            ;
             Thread.sleep(2000);
 
             // Set Resident Name
-            WebElement email = driver.findElement(By.name("QR~QID2~TEXT"));
-            email.sendKeys(resident.getName());
+            WebElement resName = driver.findElement(By.name("QR~QID2~TEXT"));
+            resName.sendKeys(resident.getName());
 
             // Set Resident Building
             WebElement building = driver.findElement(By.name("QR~QID39~TEXT"));
