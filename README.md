@@ -25,11 +25,11 @@
 8. On left hand bar in the pop-up, select `Modules`
 9. On the top bar underneath the name property, select `Dependencies`
 10. Press the `+` button at the bottom of the box. Here we will add the Selenium files we downloaded earlier. 
-  - Upon pressing `+`, you will press `JARs or Directories` and navigate to where you have downloaded Selenium initially. (If you can't find it, just search your device)
-  - Select and add the `client-combined-3.141.59.jar`
-  - Press the `x` again and now go to `libs` folder and select ALL .jar files (You can add more than one at a time)
-  - Check every Export checkbox
-  - Press `Apply` then `Okay`
+    - Upon pressing `+`, you will press `JARs or Directories` and navigate to where you have downloaded Selenium initially. (If you can't find it, just search your device)
+    - Select and add the `client-combined-3.141.59.jar`
+    - Press the `x` again and now go to `libs` folder and select ALL .jar files (You can add more than one at a time)
+    - Check every Export checkbox
+    - Press `Apply` then `Okay`
 11. Almost done! 
 
 
@@ -37,18 +37,18 @@
 1. Open the folder named `NAVEInteractionAutomation` in IntelliJ
 2. On the left hand bar, select `src > main > java > StudentEngagementAuto.java`
 3. Search the file for `CHANGE`
-  - You will change `CHANGE FILEPATH` with the location of residents.txt on your local computer. You can find this by easily dragging-and-dropping the .txt file into the Terminal application. Copy-and-paste that back into the program.
-  - Change `CHANGE BUILDING` with either number depending on building "12" for NAS or "13" for NAE
-  - Change `CHANGE NAME` with personal number code found in RAs.txt
-  -If you would like to receive emails, uncomment the line of code above `CHANGE EMAIL` and the same line (delete the //). Replace `CHANGE EMAIL` with your email.
+      - You will change `CHANGE FILEPATH` with the location of residents.txt on your local computer. You can find this by easily dragging-and-dropping the .txt file into the Terminal application. Copy-and-paste that back into the program.
+      - Change `CHANGE BUILDING` with either number depending on building "12" for NAS or "13" for NAE
+      - Change `CHANGE NAME` with personal number code found in `RAs.txt`
+      - If you would like to receive emails, uncomment the line of code above `CHANGE EMAIL` and the same line (delete the //). Replace `CHANGE EMAIL` with your email.
 4. The only file you will really touch after all this initial set-up is `residents.txt`
 
 
 ## Adding & Editing Residents
 1. Open the folder named `NAVEInteractionAutomation` in IntelliJ
 2. On the left hand bar, select `src > main > java > residents.txt`
-  - `residents.txt` will be the only file you're inputting resident name and info
-  - Your file will *ONLY* be avaliable to you on your own computer. 
+    - `residents.txt` will be the only file you're inputting resident name and info
+    - Your file will *ONLY* be avaliable to you on your own computer. 
 3. Use guide and example below to complete `residents.txt` to meet your needs
 
 ## Guide for `residents.txt`
@@ -85,9 +85,9 @@ Actions:
 
 Example:
 George Burdell, NAS,9000D
- - George Burdell NAS 900Dm RA interacted Text/Messaging, No Action, No notes
-George Burdell, NAS, 900D, 123, 1, 0,
-- George Burdell NAS 900D, RA interacted In person and Text/Messaging and Academic Issues & Successes, No Action, No Notes
+  - George Burdell NAS 900Dm RA interacted Text/Messaging, No Action, No notes
+George Burdell, NAS, 900D, 123, 1, 0
+  - George Burdell NAS 900D, RA interacted In person and Text/Messaging and Academic Issues & Successes, No Action, No Notes
 George Burdell, NAS, 9000D, 12, 1, 0, Said Hello
   - George Burdell NAS 900D, RA interacted In person and Text/Messaging, No Action, Said Hello
 
