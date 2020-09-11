@@ -28,13 +28,11 @@ public class StudentEngagementAuto {
         for (Resident resident : residents) {
             // Set Residential Community Location
             Select resCom = new Select(driver.findElement(By.name("QR~QID36")));
-            // "12" for NAS and "13" for NAE
-            resCom.selectByValue("12");
+            resCom.selectByValue("CHANGE BUILDING"); // "12" for NAS and "13" for NAE
 
             // Set RA Name
             Select name = new Select(driver.findElement(By.name("QR~QID45")));
-            // "12" for NAS and "13" for NAE
-            name.selectByValue("83");
+            name.selectByValue("CHANGE NAME"); // Personal Number Code here
 
             // Set Email (Not Mandatory)
 //        WebElement email = driver.findElement(By.name("QR~QID38~TEXT"));
