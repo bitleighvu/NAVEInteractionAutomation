@@ -37,6 +37,8 @@
 2. On the left hand bar, select `src > main > java > StudentEngagementAuto.java`
 3. Search the file for `CHANGE`
   - You will change `CHANGE FILEPATH` with the location of residents.txt on your local computer. You can find this by easily dragging-and-dropping the .txt file into the Terminal application. Copy-and-paste that back into the program.
+  - Change `CHANGE BUILDING` with either number depending on building "12" for NAS or "13" for NAE
+  - Change `CHANGE NAME` with personal number code found in RAs.txt
   -If you would like to receive emails, uncomment the line of code above `CHANGE EMAIL` and the same line (delete the //). Replace `CHANGE EMAIL` with your email.
 4. The only file you will really touch after all this initial set-up is `residents.txt`
 
