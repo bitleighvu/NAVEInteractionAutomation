@@ -47,7 +47,7 @@
 2. On the left hand bar, select `src > main > java > residents.txt`
   - `residents.txt` will be the only file you're inputting resident name and info
   - Your file will *ONLY* be avaliable to you on your own computer. 
-3. 
+3. Use guide and example below to complete `residents.txt` to meet your needs
 
 **Guide for residents.txt**
 ### Schema: Name*, Building*, Room*, Resident Interaction, Themes, Actions, Notes
@@ -63,8 +63,8 @@ Resident Interaction:
 2 - Text/Messaging
 3 - Video call
 4 - In your residence hall
-5- Phone Call
-6- Around Campus
+5 - Phone Call
+6 - Around Campus
 
 Themes:
 - 1 - Social/Get-to-know
