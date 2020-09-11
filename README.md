@@ -53,7 +53,7 @@
 
 ## Guide for `residents.txt`
 ### Schema: Name*, Building*, Room*, Resident Interaction, Themes, Actions, Notes
-*Mandatory
+**Mandatory Fields**
 *If no numbers are added, defaults are:
 - Resident Interaction - Text/Messaging
 - Theme - Social/Get-to-know
@@ -83,12 +83,12 @@ Actions:
 - 3 - Refer Resident to the Hall Director
 - 4 - Other
 
-Example:
-George Burdell, NAS,9000D
+Example (Has to be one of these three formats; You can alternate formats as you see fit per resident):
+- George Burdell, NAS,9000D
   - George Burdell NAS 900Dm RA interacted Text/Messaging, No Action, No notes
-George Burdell, NAS, 900D, 123, 1, 0
+- George Burdell, NAS, 900D, 123, 1, 0
   - George Burdell NAS 900D, RA interacted In person and Text/Messaging and Academic Issues & Successes, No Action, No Notes
-George Burdell, NAS, 9000D, 12, 1, 0, Said Hello
+- George Burdell, NAS, 9000D, 12, 1, 0, Said Hello
   - George Burdell NAS 900D, RA interacted In person and Text/Messaging, No Action, Said Hello
 
 ###### First-time Running: Only have one resident listed first in your resident.txt file.
