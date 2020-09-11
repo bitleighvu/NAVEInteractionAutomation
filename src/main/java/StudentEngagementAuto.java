@@ -22,7 +22,7 @@ public class StudentEngagementAuto {
         Format f = new SimpleDateFormat("MM/dd/yy");
         String todayDate = f.format(new Date());
 
-        ArrayList<Resident> residents = readResidents("/Users/bitleighvu/Documents/SECode/src/main/java/residents.txt"); // add your file path of your resident info
+        ArrayList<Resident> residents = readResidents("CHANGE FILE PATH"); // add your file path of your resident info
         Thread.sleep(1000);
 
         for (Resident resident : residents) {
@@ -38,7 +38,7 @@ public class StudentEngagementAuto {
 
             // Set Email (Not Mandatory)
 //        WebElement email = driver.findElement(By.name("QR~QID38~TEXT"));
-//        email.sendKeys("bitleighvu@gatech.edu");
+//        email.sendKeys("georgeburdell@gatech.edu");
 
             WebElement next = driver.findElement(By.name("NextButton"));
             next.click();
