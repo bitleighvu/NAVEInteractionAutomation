@@ -43,6 +43,46 @@
 4. The only file you will really touch after all this initial set-up is `residents.txt`
 
 **Adding & Editing Residents**
+1. Open the folder named `NAVEInteractionAutomation` in IntelliJ
+2. On the left hand bar, select `src > main > java > residents.txt`
+  - `residents.txt` will be the only file you're inputting resident name and info
+  - Your file will *ONLY* be avaliable to you on your own computer. 
+3. 
+
+**Guide for residents.txt**
+###Schema: Name*, Building*, Room*, Resident Interaction, Themes, Actions, Notes
+*Mandatory
+*If no numbers are added, defaults are:
+Resident Interaction - Text/Messaging
+Theme - Social/Get-to-know
+Actions - No action
+Notes - Nothing*
+
+Resident Interaction:
+1 - In person
+2 - Text/Messaging
+3 - Video call
+4 - In your residence hall
+5- Phone Call
+6- Around Campus
+
+Themes:
+1 - Social/Get-to-know
+2 - Current Topics & Events
+3 - Academic Issues & Successes
+4 - Crisis & Mental Health Concern
+5 - Campus Involvement/Engagement
+6 - Guided Resident Conversation
+7 - Roommate & Community Dynamics
+
+Actions:
+1 - Refer Resident to a Campus Resource
+2 - Follow up later by RA
+3 - Refer Resident to the Hall Director
+4 - Other
+
+Example:
+George Burdell, NAS, 9000D, 12, 1, 1, Said Hello
 
 ###### First-time Running: Only have one resident listed first in your resident.txt file.
 **Running the Automation**
@@ -51,5 +91,3 @@
 3. On line 17, press the little green play button 
 4. Press, the first option ('Run StudentEngagment...main()')
 5. This will execute the script with all residents listed in your `resident.txt` file.
-
- 
