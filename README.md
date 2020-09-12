@@ -13,6 +13,7 @@
   - Window users: You will need to add the location of wherever you stored your ChromeDriver to your Env Vars (aka message me if you need help)
 - [Selenium Java](https://www.selenium.dev/downloads/)
 - [IntelliJ IDEA - Free for Students ](https://www.jetbrains.com/idea/download/#section=mac)
+- [Google Chrome](https://www.google.com/chrome/)
 
 **Setting the Automation Up**
 1. Open Terminal application
